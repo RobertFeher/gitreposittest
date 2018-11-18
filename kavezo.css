@@ -1,0 +1,57 @@
+body {
+    background-color: burlywood;
+}
+
+.title {
+    padding: 18px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: rgb(120, 30, 30);
+}
+
+.table {
+    margin: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+#kavek {
+    box-sizing: border-box;
+    border-color: #e9e9e9;
+    font-size: 12px;
+}
+
+#kavek:focus {
+    box-sizing: border-box;
+    border-color: #ababab;
+    font-size: 16px;
+}
+
+@keyframes buttonAnim {
+    from {left: 0px;}
+    to {left: 25px;}
+    0% { background-color: rgba(130, 118, 185, 1) }
+    50% { background-color: rgba(120, 200, 185, 1)}
+}
+
+[type=button] {
+    color: rgb(192, 200, 188);
+    background-color: rgb(130, 118, 185);
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 1px 2px;
+    top: 0;
+    left: 0;
+}
+
+[type=button]:hover {
+    top: 0px;
+    left: 25px;
+    animation: buttonAnim 2s;
+    
+}
+  
+.content {
+font-weight: bold;
+color: rgb(120, 30, 30);
+}
